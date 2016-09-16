@@ -1,0 +1,13 @@
+{
+  "name": "text-reader",
+  "description": "simple reader for txt file to convert into json object",
+  "main": "",
+  "authors": [
+    "luisf11"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "angularjs#^1.5.8"
+  }
+}

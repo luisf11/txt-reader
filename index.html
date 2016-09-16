@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div ng-controller="main" class="container">
+      <h1>Seleccione archivo a subir</h1>
+      <input type="file" on-read-file="showContent($fileContent)">
+        <div ng-if="content">
+          <h2>El contenido del archivo es:</h2>
+          <pre>
+            {{content}}
+          </pre>
+
+        </div>
+    </div>
+
+
+
+    <script src="libs/angular/angular.js" charset="utf-8"></script>
+    <script src="app/app.js" charset="utf-8"></script>
+    <script src="app/app.mainCrtl.js" charset="utf-8"></script>
+    <script src="app/app.fileDirective.js" charset="utf-8"></script>
+  </body>
+</html>
